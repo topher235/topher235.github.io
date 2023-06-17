@@ -9,7 +9,7 @@ nav {
   position: fixed;
   top: 220px;
   left: 40%;
-  top: 35%;
+  top: 37%;
   margin-left:-580px;
   text-align: right;
 
@@ -57,10 +57,30 @@ nav {
   }
 }
 
+section {
+  padding: 30px 30px 50px 30px;
+  margin-left: 0px;
+  position:relative;
+}
+
+@media print, screen and (max-width: 1400px) {
+	nav {
+	  left: 50%;
+	}
+
+	section {
+	  margin-left: 150px;
+	}
+}
+
 @media print, screen and (max-width: 1060px) {
 
   nav {
     display: none;
+  }
+
+  section {
+    margin-left: 0px;
   }
 
 }
