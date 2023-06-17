@@ -8,7 +8,9 @@ title: Home
 
 # Highest Level
 
-## Second highest level
+## Setting a Default Name
+
+![Default player name bug](assets/img/default-name-bug.png)
 
 ### Third level
 
