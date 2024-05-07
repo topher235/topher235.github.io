@@ -6,22 +6,17 @@ layout: default
 title: Home
 ---
 
-# Highest Level
-
-## Setting a Default Name
-
-![Default player name bug](assets/img/default-name-bug.png)
-
-### Third level
-
-# Blogs
+# Blog Posts
 {% for post in site.posts %}
  
-<ul>
+<ol>
  
-<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
+<li>
+	<h3>
+		<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+	</h3>
+	<p>A devlog detailing features that went into creating a Pokemon Emerald mod to propose to my partner.</p>
+</li>
  
-</ul>
+</ol>
 {% endfor %}
-
-## Another 2nd sublevel
